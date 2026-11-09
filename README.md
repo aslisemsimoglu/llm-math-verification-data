@@ -1,81 +1,68 @@
-﻿# Mathematical Answer Verification: Experimental Data
+
+# Mathematical Answer Verification: Experimental Data
 
 ## Overview
 
-This repository contains experimental datasets, model outputs,
-training records, and evaluation artifacts from a controlled
-study of parameter-efficient language-model adaptation for
-mathematical answer generation and verification.
+This repository provides datasets, model-generated responses, training records, and evaluation results from a controlled experimental study of parameter-efficient fine-tuning for mathematical answer verification.
 
-The archive is organized to support independent inspection
-of the experimental design, model responses, and reported
-automatic-verification outcomes.
+## Experimental Design
 
-## Experimental configuration
+- **Models:** Qwen2.5-1.5B-Instruct and Qwen2.5-Math-1.5B-Instruct
+- **Method:** Quantized Low-Rank Adaptation (QLoRA)
+- **Training-set sizes:** 100, 300, 600, and 900
+- **Random seeds:** 42, 123, and 2026
+- **Fine-tuned configurations:** 24
+- **Baseline configurations:** 2
+- **Test questions per configuration:** 210
+- **Total evaluated responses:** 5,460
 
-- Model families: Qwen2.5-1.5B-Instruct and
-  Qwen2.5-Math-1.5B-Instruct
-- Adaptation: quantized parameter-efficient fine-tuning
-- Training sizes: 100, 300, 600, and 900
-- Random seeds: 42, 123, and 2026
-- Adapted configurations: 24
-- Baseline configurations: 2
-- Fixed test questions per configuration: 210
-- Total primary evaluation records: 5,460
+## Repository Structure
 
-## Repository contents
-
-| Directory | Description |
+| Directory | Contents |
 |---|---|
-| `data/splits/` | Dataset partitions and seeded training subsets |
+| `data/splits/` | Training subsets, validation data, and fixed test data |
 | `experiments/runs/` | Training metrics and checkpoint-selection records |
-| `experiments/summary/` | Experiment-level summaries |
-| `evaluation/predictions/` | Raw outputs for 26 evaluation configurations |
-| `evaluation/scoring/` | Record-level automatic evaluation |
+| `experiments/summary/` | Experimental configuration and aggregate results |
+| `evaluation/predictions/` | Model-generated responses |
+| `evaluation/scoring/` | Record-level verification outcomes |
 | `evaluation/summary/` | Aggregated evaluation results |
-| `evaluation/review/` | Review queues and conservative screening artifacts |
-| `statistics/` | Paired statistical comparisons and bootstrap results |
-| `pilot/` | Exploratory novel-template evaluation materials |
+| `evaluation/review/` | Review-required cases and screening records |
+| `statistics/` | McNemar tests and bootstrap analyses |
+| `pilot/` | Exploratory evaluation on additional problem templates |
 
-## Primary automatic-verification outcomes
+## Evaluation Results
 
-Across 5,460 evaluated responses:
+The primary automatic-verification procedure produced the following outcomes:
 
-- Correct (C): 4,077
-- Wrong (W): 966
-- Review-required (R): 417
+| Classification | Count |
+|---|---:|
+| Correct (C) | 4,077 |
+| Wrong (W) | 966 |
+| Review-required (R) | 417 |
+| **Total** | **5,460** |
 
-R indicates that the automatic verification procedure did
-not establish a definitive outcome. It does not itself
-indicate mathematical incorrectness.
+The review-required category denotes responses for which the automatic procedure did not establish a definitive correctness judgment.
 
-Review queues and screening candidates are not final
-independent human adjudications.
+Review and screening records are provided separately from the primary evaluation results.
 
-## Data interpretation
+## Data Documentation
 
-The `auto_class` field records the primary automatic
-verification outcome. The `semantic_class` field in the
-distributed scoring file mirrors the associated automatic
-classification and must not be treated as independent
-human verification.
+The `DATA_DICTIONARY.md` file describes the principal variables and evaluation records.
 
-The primary evaluation, review screening, and exploratory
-pilot are distinct analytical components.
+The `SHA256SUMS.csv` file provides SHA-256 checksums for verifying file integrity.
 
-## Integrity
+## Reproducibility
 
-`SHA256SUMS.csv` provides cryptographic hashes for
-checking the integrity of the archived files.
+The repository includes the dataset partitions, recorded model outputs, experimental metrics, checkpoint-selection information, and evaluation artifacts used in the study.
 
-## Reproducibility scope
+Pretrained model weights, fine-tuned adapter weights, and the complete executable training environment are not distributed in this repository.
 
-This archive preserves datasets, recorded outputs, training
-metrics, and evaluation results. It does not contain model
-weights or a complete executable reconstruction of the
-training and inference environment.
+## Citation
 
-## Attribution and license
+**Dataset title:** Mathematical Answer Verification: Experimental Data
 
-Formal citation information and reuse permissions will be
-finalized before public release.
+**Creators:** Aslı Şemşimoğlu and Celal Onur Gökçe
+
+**Year:** 2026
+
+A version-specific DOI and recommended citation will be available through the associated Zenodo record.
