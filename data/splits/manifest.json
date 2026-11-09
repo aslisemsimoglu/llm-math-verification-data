@@ -1,0 +1,258 @@
+{
+  "version": "math_v2_controlled_v1",
+  "record_count": 1470,
+  "pool": 1050,
+  "validation": 210,
+  "test": 210,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "training_sizes": [
+    100,
+    300,
+    600,
+    900
+  ],
+  "generator_input_hashes": {
+    "src/data/generators_en/arithmetic.py": "45b648d1cb9e2b117ed66ea101e431f4137b5ce025d894c7087b0fdea4f84585",
+    "src/data/generators_en/fractions.py": "1ce879808ba0517c4eddc5c9a081454226a5274f8477412bd7d11e3378664cf1",
+    "src/data/generators_en/linear_equations.py": "bcc6ecc7e08e344ca04ca6786daf8bebc0878ea125600cea0b3e43910ae69712",
+    "src/data/generators_en/modular_arithmetic.py": "f33438e9a74a3546412a31206c6a68559fd923c4fff4a7d8b4f9314a6bd5770a",
+    "src/data/generators_en/percentages.py": "1e6ff22aa8b9d898a511822d1246cdbfa92d1ca624d2abf0a16624f8e05afe7a",
+    "src/data/generators_en/sequences.py": "eca4b9b6c6375477232a7f19c08d77c3bc90616fea68227f5c6bf1f0adfe63aa",
+    "src/data/generators_en/word_problems.py": "2c3209c6d45d99042e4766c75ae8bf11ec95892bc92bcf9afb8903f92a0a4266",
+    "src/data/generate_math_dataset_en.py": "da9be6555028b178dc11d3ce8f2b8004fb01e5940059e6dc62ef9762d5332b6f",
+    "configs/math_difficulty_plan.json": "4f145e226128faf5712a9f14a63f16d1813b5ffff4fbadce3383c00a61a2494e"
+  },
+  "historical_source_hashes": [
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N100_TRAIN80_TEST20_E30_RUN01/train.jsonl",
+      "sha256": "c81d15a191a51a77b47f0558237d8f99933a34a91235a112e0cc2d92f10a038f"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N100_TRAIN80_TEST20_E30_RUN01/test.jsonl",
+      "sha256": "301be086ab19836bb7154a26df71a5cec1a6719261f5a8cad0d28866782c6842"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N200_TRAIN160_TEST40_E30_RUN01/train.jsonl",
+      "sha256": "abdfe3c0d9beb2de8b52efeb5056132fe6f28db58d216493a9e6ed8aeae5efb4"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N200_TRAIN160_TEST40_E30_RUN01/test.jsonl",
+      "sha256": "e92932e2fd0bfe91437f17c88654e257e7173bb0678ce61fe0038f6e4553adf0"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N300_TRAIN240_TEST60_E30_RUN01/train.jsonl",
+      "sha256": "593e86b95407eb1d19da6b0a06a4f979b716248c2be5eb8f7c7d5e7c5a049a84"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N300_TRAIN240_TEST60_E30_RUN01/test.jsonl",
+      "sha256": "cc10f7acf120c7ce96c9d0d769ccd788b74f2f2caa4a187831b0780a33da92e9"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N400_TRAIN320_TEST80_E30_RUN01/train.jsonl",
+      "sha256": "de141c4d62785967b22b8974a12bce77d9cf89fcf7d87b821abc9262948e0342"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N400_TRAIN320_TEST80_E30_RUN01/test.jsonl",
+      "sha256": "2768a31975c1a36e47784e26351e1ce074c6e5f279b74ba6e627c080e45498ff"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N500_TRAIN400_TEST100_E30_RUN01/train.jsonl",
+      "sha256": "338094228253ddda44896c05d5cf6704e970b578f53381fdf3087df85c734e03"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N500_TRAIN400_TEST100_E30_RUN01/test.jsonl",
+      "sha256": "1a95368d19c2fcdd74edc813638b0bc7b88451e42696e67f4c1cdefcb571403e"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N600_TRAIN480_TEST120_E30_RUN02/train.jsonl",
+      "sha256": "1eb9b486398247fdbd27f313bb0cb7bfd3e5bfdfeef93730105b749788fa7dbc"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N600_TRAIN480_TEST120_E30_RUN02/test.jsonl",
+      "sha256": "6b8eb1831150eab266bb87cd77e4462de22287d6980d09709ce88203034debeb"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N700_TRAIN560_TEST140_E30_RUN01/train.jsonl",
+      "sha256": "4bb5572fd7cc23648f4470886eaa39fe0a283bf34216f35a5372fe5d159b47fc"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N700_TRAIN560_TEST140_E30_RUN01/test.jsonl",
+      "sha256": "1800b9758a0425a50599b1c42ebecd61402f6a2308be5edb8fcb6bfbed2e984e"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N800_TRAIN640_TEST160_E30_RUN01/train.jsonl",
+      "sha256": "0ad37f33a725190a606aa70644a1658c04130bdbf6c9ab5d1dcb905c661f6662"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N800_TRAIN640_TEST160_E30_RUN01/test.jsonl",
+      "sha256": "c6366a60891ef1dca65bd672b106a56e69e33696404eb9891a7c3530e3f7a50c"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N900_TRAIN720_TEST180_E30_RUN02/train.jsonl",
+      "sha256": "1e1643ab638b732b80b93c29b0a32121bfb8d68a9589abc3b757e4ca8b3e0060"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_15B_N900_TRAIN720_TEST180_E30_RUN02/test.jsonl",
+      "sha256": "297ab62506d9665fa643da0cfd0671ea3a12bf0e84c990c1ff70e27608e6a739"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N100_TRAIN80_TEST20_E30_RUN04/train.jsonl",
+      "sha256": "c81d15a191a51a77b47f0558237d8f99933a34a91235a112e0cc2d92f10a038f"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N100_TRAIN80_TEST20_E30_RUN04/test.jsonl",
+      "sha256": "301be086ab19836bb7154a26df71a5cec1a6719261f5a8cad0d28866782c6842"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N200_TRAIN160_TEST40_E30_RUN01/train.jsonl",
+      "sha256": "abdfe3c0d9beb2de8b52efeb5056132fe6f28db58d216493a9e6ed8aeae5efb4"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N200_TRAIN160_TEST40_E30_RUN01/test.jsonl",
+      "sha256": "e92932e2fd0bfe91437f17c88654e257e7173bb0678ce61fe0038f6e4553adf0"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N300_TRAIN240_TEST60_E30_RUN01/train.jsonl",
+      "sha256": "593e86b95407eb1d19da6b0a06a4f979b716248c2be5eb8f7c7d5e7c5a049a84"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N300_TRAIN240_TEST60_E30_RUN01/test.jsonl",
+      "sha256": "cc10f7acf120c7ce96c9d0d769ccd788b74f2f2caa4a187831b0780a33da92e9"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N400_TRAIN320_TEST80_E30_RUN02/train.jsonl",
+      "sha256": "de141c4d62785967b22b8974a12bce77d9cf89fcf7d87b821abc9262948e0342"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N400_TRAIN320_TEST80_E30_RUN02/test.jsonl",
+      "sha256": "2768a31975c1a36e47784e26351e1ce074c6e5f279b74ba6e627c080e45498ff"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N500_TRAIN400_TEST100_E30_RUN01/train.jsonl",
+      "sha256": "338094228253ddda44896c05d5cf6704e970b578f53381fdf3087df85c734e03"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N500_TRAIN400_TEST100_E30_RUN01/test.jsonl",
+      "sha256": "1a95368d19c2fcdd74edc813638b0bc7b88451e42696e67f4c1cdefcb571403e"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N600_TRAIN480_TEST120_E30_RUN02/train.jsonl",
+      "sha256": "1eb9b486398247fdbd27f313bb0cb7bfd3e5bfdfeef93730105b749788fa7dbc"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N600_TRAIN480_TEST120_E30_RUN02/test.jsonl",
+      "sha256": "6b8eb1831150eab266bb87cd77e4462de22287d6980d09709ce88203034debeb"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N700_TRAIN560_TEST140_E30_RUN01/train.jsonl",
+      "sha256": "4bb5572fd7cc23648f4470886eaa39fe0a283bf34216f35a5372fe5d159b47fc"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N700_TRAIN560_TEST140_E30_RUN01/test.jsonl",
+      "sha256": "1800b9758a0425a50599b1c42ebecd61402f6a2308be5edb8fcb6bfbed2e984e"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N800_TRAIN640_TEST160_E30_RUN01/train.jsonl",
+      "sha256": "0ad37f33a725190a606aa70644a1658c04130bdbf6c9ab5d1dcb905c661f6662"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N800_TRAIN640_TEST160_E30_RUN01/test.jsonl",
+      "sha256": "c6366a60891ef1dca65bd672b106a56e69e33696404eb9891a7c3530e3f7a50c"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N900_TRAIN720_TEST180_E30_RUN01/train.jsonl",
+      "sha256": "1e1643ab638b732b80b93c29b0a32121bfb8d68a9589abc3b757e4ca8b3e0060"
+    },
+    {
+      "path": "math_experiments/reports/config_driven_train_test_v1/QWEN25_MATH_15B_N900_TRAIN720_TEST180_E30_RUN01/test.jsonl",
+      "sha256": "297ab62506d9665fa643da0cfd0671ea3a12bf0e84c990c1ff70e27608e6a739"
+    }
+  ],
+  "output_hashes": {
+    "train_pool.jsonl": "4aabccdc87bad5314dd36643c737c1faf9970aeccd63ae954be6453fbde54ae1",
+    "validation_fixed.jsonl": "c4d0cf1d5089c77654201491534ed747a16a823eca06d4c5a34c0d2c2ccb1ab3",
+    "test_fixed.jsonl": "4110073564a542801130eca84753af4e41d7c8af668fa8204dad718e03330452",
+    "train_seed42_N100.jsonl": "7832e1a1c65eb641e59593ac60b14f8349968175db0278f9cd15c98b5dc1d396",
+    "train_seed42_N300.jsonl": "0d49fd55390b13874f492c3cea226ca2de862fa2d51d63ffddb63453fa222bbf",
+    "train_seed42_N600.jsonl": "5766efa1a829feab94ce28b24717efd3634dcdc43cd8b7fac10ee29eca71520e",
+    "train_seed42_N900.jsonl": "8f63dc964f6fee5e25193c65ac5ffc655d54c5f3a6052affd0b02de5bb24affd",
+    "train_seed123_N100.jsonl": "f678086d0016ea5f28951d78ce9614703f00263165e3c35446be9ad47c8c0dc9",
+    "train_seed123_N300.jsonl": "b09ad715732ad5f7c9f7d4505c62008124495d6ff51cce23cb2706efbff22042",
+    "train_seed123_N600.jsonl": "98091ff3372721fa708cdf0580ab398e3a1b54181143c6c2ce9e006a1a6dc300",
+    "train_seed123_N900.jsonl": "847aad1bc3d66c903d42fbd036bfb190ae3068c9e590a508b052e27fddbf3133",
+    "train_seed2026_N100.jsonl": "6ab7f68d4303e36f42b76800b8731dc323d1677f5365c1b4698e9b9917cd271d",
+    "train_seed2026_N300.jsonl": "f97146250a79944aff7e74f94c9497680fe8e2553561a2ff073bcb38fea91ee7",
+    "train_seed2026_N600.jsonl": "afaa7e6300581462444238dd42c10fd992004b491d2017183c687fc81135fac9",
+    "train_seed2026_N900.jsonl": "e54e4c35d018151dd2591cd4280a35e352ed8bd7fd4e32e8c0fca061dc69da8d"
+  },
+  "difficulty_counts": {
+    "medium": 588,
+    "easy": 518,
+    "hard": 364
+  },
+  "category_counts": {
+    "word_problems": 208,
+    "linear_equations": 212,
+    "fractions": 212,
+    "arithmetic": 212,
+    "sequences": 208,
+    "modular_arithmetic": 210,
+    "percentages": 208
+  },
+  "template_counts": {
+    "age_problem": 52,
+    "ax_minus_b": 53,
+    "ax_plus_b": 53,
+    "fraction_addition": 53,
+    "order_of_operations": 53,
+    "rate_problem": 52,
+    "geometric_sequence": 52,
+    "congruence_basic": 52,
+    "variables_both_sides": 53,
+    "fraction_subtraction": 53,
+    "mixed_operations": 53,
+    "ratio_problem": 52,
+    "multiply_divide": 53,
+    "remainder": 53,
+    "fraction_multiplication": 53,
+    "percentage_of_number": 52,
+    "pattern_rule": 52,
+    "missing_term": 52,
+    "add_subtract": 53,
+    "fraction_division": 53,
+    "modular_multiplication": 52,
+    "discount": 52,
+    "increase": 52,
+    "modular_addition": 53,
+    "arithmetic_sequence": 52,
+    "money_problem": 52,
+    "reverse_percentage": 52,
+    "fractional_coefficient": 53
+  },
+  "enhanced_counts": {
+    "percentages/discount/easy": 18,
+    "percentages/discount/hard": 13,
+    "percentages/discount/medium": 21,
+    "percentages/increase/easy": 18,
+    "percentages/increase/hard": 13,
+    "percentages/increase/medium": 21,
+    "percentages/percentage_of_number/easy": 18,
+    "percentages/percentage_of_number/hard": 13,
+    "percentages/percentage_of_number/medium": 21,
+    "percentages/reverse_percentage/easy": 18,
+    "percentages/reverse_percentage/hard": 13,
+    "percentages/reverse_percentage/medium": 21,
+    "sequences/geometric_sequence/easy": 18,
+    "sequences/missing_term/medium": 21,
+    "sequences/pattern_rule/medium": 21,
+    "word_problems/rate_problem/easy": 18
+  },
+  "historical_exact_overlap": 0,
+  "independent_math_gold_verified": false,
+  "structural_ood": false,
+  "existing_experiments_modified": false
+}

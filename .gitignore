@@ -1,0 +1,16 @@
+﻿.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pem
+*.key
+*.p12
+*.pfx
+adapter_best/
+adapter_last/
+checkpoints/
+*.safetensors
+*.gguf

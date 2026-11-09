@@ -1,0 +1,15 @@
+﻿category,template_id,structural_mechanism,question_count,example_question,example_answer
+linear_equations,pilot_absolute_linear,absolute-value equation with branch selection,5,The equation |x - 2| = 5 has one positive solution and one negative solution. What is its positive solution?,7
+sequences,pilot_alternating_recurrence,alternating addition and multiplication recurrence,5,"Start with 2. To obtain each next term, alternately add 3 and multiply by 2, beginning with addition. What is the sixth term?",29
+word_problems,pilot_equal_distance_average_speed,harmonic mean for equal distances,5,A driver travels one route at 30 km/h and returns along the same distance at 60 km/h. What is the average speed in km/h over the entire round trip?,40
+fractions,pilot_fraction_remaining,sequential fractional removal with changing base,5,A container is initially full. First 1/3 of its contents is removed; then 1/2 of the remaining contents is removed. What fraction of the original contents remains?,1/3
+word_problems,pilot_joint_work,parallel work-rate harmonic combination,5,"Machine A completes a job alone in 6 hours, and machine B completes it alone in 3 hours. Working together at constant rates, how many hours will they take to complete one job?",2
+arithmetic,pilot_lcm,least common multiple,5,What is the smallest positive integer that is a multiple of both 12 and 18?,36
+linear_equations,pilot_linear_system,simultaneous two-variable linear system,5,Two numbers x and y satisfy x + y = 8 and 2x + 3y = 21. Find x.,3
+modular_arithmetic,pilot_modular_inverse,modular multiplicative inverse,5,Find the smallest positive integer x such that 3x is congruent to 1 modulo 11.,4
+modular_arithmetic,pilot_modular_power,modular exponentiation,5,Find the least nonnegative remainder of 3^7 upon division by 11.,9
+fractions,pilot_reduce_ratio,greatest-common-divisor fraction simplification,5,Write the fraction 28/63 in lowest terms.,4/9
+percentages,pilot_relative_rate_change,relative percentage change between two percentages,5,A survey response rate rises from 20% to 25%. What is the relative percentage increase in the response rate (not the increase in percentage points)?,25
+sequences,pilot_second_order_recurrence,second-order recurrence,5,"A sequence starts with 1, 2. Each following term is the sum of the preceding two terms. What is term 7?",21
+arithmetic,pilot_sum_squares,closed-form square sum,5,"Find the sum of the squares of all integers from 1 through 6, inclusive.",91
+percentages,pilot_weighted_percentage,weighted percentage across groups,5,Group A has 20 people and 50% qualify. Group B has 30 people and 10% qualify. What percentage of all people qualify?,26

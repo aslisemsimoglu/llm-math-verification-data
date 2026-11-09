@@ -1,0 +1,10 @@
+{
+  "best_checkpoint": "C:\\Users\\semsi\\MathPaperV2Generalization_20261031\\V2_MATH_N100_SEED2026_E30\\checkpoints\\checkpoint-91",
+  "last_checkpoint": "C:\\Users\\semsi\\MathPaperV2Generalization_20261031\\V2_MATH_N100_SEED2026_E30\\checkpoints\\checkpoint-390",
+  "best_validation_loss": 0.10675512254238129,
+  "best_epoch": 7.0,
+  "last_epoch": 30,
+  "metric": "eval_loss",
+  "selection_dataset": "fixed_validation_210",
+  "test_set_used_for_selection": false
+}

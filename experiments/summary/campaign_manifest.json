@@ -1,0 +1,10 @@
+{
+  "trainer_sha256": "77df814cc0645ca26122fb8db0edd6954a5e8144886c0deee1c0820ab8a40da7",
+  "runner_sha256": "b9f5606cc6a5691ca9bf9f1c3455bc3a07ca4cb099145645b14fe2dbd79abe57",
+  "dataset_manifest_sha256": "86a06b1e5d5117b7ab47f5117af149eb68f8d645d156fb88f141086193d1d768",
+  "model_revision_pin": "NOT_PINNED",
+  "selection_rule": "minimum validation loss, 30 epochs, best and last retained",
+  "condition_count": 24,
+  "epochs": 30,
+  "dataset_size_definition": "number of training examples, no 80/20 split"
+}

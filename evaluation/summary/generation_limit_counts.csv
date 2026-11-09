@@ -1,0 +1,9 @@
+﻿model,training_size,total,reached_token_limit
+general,100,630,0
+general,300,630,0
+general,600,630,0
+general,900,630,0
+math,100,630,1
+math,300,630,0
+math,600,630,0
+math,900,630,0
