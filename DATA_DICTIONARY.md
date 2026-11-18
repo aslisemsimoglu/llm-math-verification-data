@@ -1,4 +1,4 @@
-﻿# Data Dictionary
+# Data Dictionary
 
 ## Primary scoring file
 
@@ -55,3 +55,35 @@ comparison definitions associated with these records.
 The pilot directory contains exploratory materials and
 separate model outputs. Pilot observations should not be
 added to the 5,460 primary evaluation records.
+
+## Additional evaluation evidence
+
+Path: `evaluation/review/final_evidence/`
+
+| File | Contents |
+|---|---|
+| `G01L_ALL_5460_EVIDENCE_BRIDGE.csv` | Original outcomes and supplementary evidence classifications |
+| `G01L_BY_CONDITION_AND_EVIDENCE.csv` | Condition-level evidence summaries |
+| `G01L_OPEN_R_107.csv` | Remaining unresolved responses |
+| `G01L_SUMMARY.json` | Aggregate evidence counts and source checksums |
+| `G01D_ALL_417_EVIDENCE_MATRIX.csv` | Intermediate evidence records for the original R cases |
+| `G01F_84_RECORD_LEVEL_RESOLUTION.csv` | Record-level disagreement resolution |
+| `G01G_203_RECORD_LEVEL_AUDIT.csv` | Assessment agreement audit |
+| `G01I_ALL_110_POLICY_DECISIONS.csv` | Conservative decision-policy records |
+| `reviewer_2_BLIND_287_EVALUATED.csv` | AI-assisted contextual assessment records |
+
+The evidence bridge preserves the original automatic classifications.
+
+| Assessment | Correct | Incorrect | Unresolved |
+|---|---:|---:|---:|
+| Deterministic verification | 119 | 11 | 0 |
+| Contextual assessment and reconciliation | 145 | 35 | 107 |
+| Total | 264 | 46 | 107 |
+
+These records represent overlapping assessment stages and must not be concatenated as independent observations.
+
+No independent human adjudication was performed. Supplementary classifications do not represent independently human-validated semantic accuracy.
+
+Legacy reviewer and human-adjudication field names are retained as archival schema fields and do not imply human assessment.
+
+The summary contains checksums for original source artifacts, including artifacts not distributed in this repository.

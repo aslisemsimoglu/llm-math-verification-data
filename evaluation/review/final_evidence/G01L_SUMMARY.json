@@ -1,0 +1,37 @@
+{
+  "status": "EVIDENCE_BRIDGE_NOT_FINAL_SEMANTIC_ACCURACY",
+  "records": 5460,
+  "conditions": 26,
+  "unique_questions": 210,
+  "original_labels": {
+    "C": 4077,
+    "W": 966,
+    "R": 417
+  },
+  "evidence_statuses": {
+    "TAG_CORRECT": 4077,
+    "TAG_INCORRECT": 966,
+    "SUPPORTED_CORRECT_FINAL": 264,
+    "OPEN_UNRESOLVED": 107,
+    "SUPPORTED_INCORRECT_FINAL": 46
+  },
+  "R_deterministic_supported": 130,
+  "R_AI_supported_contextual": 180,
+  "R_open": 107,
+  "human_reviews_completed": 0,
+  "semantic_accuracy_computed": false,
+  "limitation": "The 5,043 C/W checks are complete-tag comparisons; 180 additional R records have AI-supported contextual assessments, not independent human adjudication; 107 are unresolved. Do not combine these as confirmed semantic accuracy.",
+  "output_sha256": {
+    "G01L_ALL_5460_EVIDENCE_BRIDGE.csv": "02effa867e8206a2e4e3c58fb6259ec3b1481307c3a77cf6834519af508a3e36",
+    "G01L_BY_CONDITION_AND_EVIDENCE.csv": "004c6649366dc7559a5dcfc184505ad65aeacbbc18d9e35914d351fbfb5d8d29",
+    "G01L_OPEN_R_107.csv": "50d17eafb2d718c50f7aa75c08d07bf007508787318672634428451054dfff6c"
+  },
+  "input_sha256": {
+    "G01D_ALL_417_EVIDENCE_MATRIX.csv": "0603f32be5943158bcad950a499b7638f4b3cdd4df6b7c190f7ce732f8d405be",
+    "G01F_84_RECORD_LEVEL_RESOLUTION.csv": "6da93f7e4d3c8a3589bca9a167594e8f06765457606e0f0a51d32a35b7db52fe",
+    "G01G_203_RECORD_LEVEL_AUDIT.csv": "3374b08f5e7106d2bb9f8b5ad28ddfdb0736c925d8f3d239b433fc03253ffc07",
+    "G01I_ALL_110_POLICY_DECISIONS.csv": "cfaaff8ea482eb262aa17a347365c7b7c6f8ed9483f2a1b8d48939f80daeef89",
+    "G01K_5043_CW_TAG_AUDIT.csv": "fc49851789578d4b1fba6f118628c969057f50dfd179afdbafaa8113657e1ee7",
+    "UNBLIND_MAPPING_RESTRICTED.csv": "88e3649989562dc1d0415c8c464330be5b6337b4d568ca6d4a0684e622fdec4d"
+  }
+}
